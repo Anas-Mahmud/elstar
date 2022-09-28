@@ -1,9 +1,13 @@
 import './App.css';
+import Banner from './components/Banner/Banner';
+import Home from './components/Home/Home';
+
 
 function App() {
   return (
     <div className="App">
-      <h1>hello world</h1>
+      <Home></Home>
+      <Banner></Banner>
     </div>
   );
 }

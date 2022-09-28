@@ -3,8 +3,8 @@ import './Banner.css'
 
 const Banner = () => {
     return (
-        <div>
-
+        <div className='banner'>
+            <h1>this is from banner</h1>
         </div>
     );
 };

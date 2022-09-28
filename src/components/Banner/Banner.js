@@ -1,10 +1,11 @@
 import React from 'react';
+import Id from '../Id/Id';
 import './Banner.css'
 
 const Banner = () => {
     return (
         <div className='banner'>
-            <h1>this is from banner</h1>
+            <Id></Id>
         </div>
     );
 };

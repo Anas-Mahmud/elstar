@@ -1,0 +1,23 @@
+.card {
+    background-color: white;
+    width: 300px;
+    height: 440px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.card img {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.add-btn {
+    margin-left: 20px;
+    padding: 13px 100px;
+    border: none;
+    background-color: rgb(133, 168, 162);
+    border-radius: 10px;
+    color: white;
+}

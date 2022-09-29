@@ -10,7 +10,7 @@ const Banner = ({ card }) => {
             <p>Halishahar, Chittagong</p>
             <div className='id-info'>
                 <div>
-                    <h2>74kg</h2>
+                    <h2>72kg</h2>
                     <h3>Weight</h3>
                 </div>
                 <div>

@@ -1,3 +1,8 @@
+.home {
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+}
+
 .left-side {
     background-color: rgb(236, 242, 245);
     padding-top: 50px;
@@ -12,4 +17,14 @@
 
 .text {
     margin-left: 65px;
+}
+
+@media screen and (max-width: 800px) {
+    .home {
+        display: block;
+    }
+
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }

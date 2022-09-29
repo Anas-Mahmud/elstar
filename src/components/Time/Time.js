@@ -1,9 +1,8 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './Time.css'
 import Swal from 'sweetalert2'
 
 const Time = ({ cards }) => {
-    // console.log(cards);
 
     const [breakTime, setBreakTime] = useState('');
 
@@ -21,9 +20,14 @@ const Time = ({ cards }) => {
     }
 
     const handleBreakTime = (time) => {
-        // console.log(time);
         setBreakTime(time);
+        localStorage.setItem('time', JSON.stringify(time))
     }
+
+    useEffect(() => {
+        const breakItem = JSON.parse(localStorage.getItem('time'));
+        setBreakTime(breakItem);
+    }, [])
 
     return (
         <div>

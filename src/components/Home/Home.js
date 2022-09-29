@@ -4,6 +4,7 @@ import { faStarHalfStroke } from '@fortawesome/free-solid-svg-icons';
 import Banner from '../Banner/Banner';
 import Card from '../Card/Card';
 import './Home.css'
+import Blog from '../Blog/Blog';
 
 const Home = () => {
     const [cards, setCard] = useState([]);
@@ -37,6 +38,7 @@ const Home = () => {
                         ></Card>)
                     }
                 </div>
+                <Blog></Blog>
             </div>
             <Banner card={activity}></Banner>
         </div>

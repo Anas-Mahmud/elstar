@@ -1,10 +1,13 @@
 import React, { useEffect, useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faStarHalfStroke } from '@fortawesome/free-solid-svg-icons';
 import Banner from '../Banner/Banner';
 import Card from '../Card/Card';
 import './Home.css'
 
 const Home = () => {
     const [cards, setCard] = useState([]);
+    const [activity, setActivity] = useState([]);
 
     useEffect(() => {
         fetch('fakedb.json')
@@ -13,14 +16,17 @@ const Home = () => {
     }, [])
 
     const handleAddToList = (card) => {
-        console.log(card);
+        // console.log(card);
+        const newActivity = [...activity, card];
+        setActivity(newActivity);
+        // console.log(activity);
     }
 
     return (
         <div className='home'>
             <div className='left-side'>
                 <div className='text'>
-                    <h1>elstar</h1>
+                    <h1> <FontAwesomeIcon icon={faStarHalfStroke}></FontAwesomeIcon> elstar</h1>
                 </div>
                 <div className='cards'>
                     {
@@ -32,7 +38,7 @@ const Home = () => {
                     }
                 </div>
             </div>
-            <Banner></Banner>
+            <Banner card={activity}></Banner>
         </div>
     );
 };

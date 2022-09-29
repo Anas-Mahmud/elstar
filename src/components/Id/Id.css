@@ -1,7 +1,0 @@
-.id-info {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin: 0px 50px;
-    background-color: rgb(236, 242, 245);
-    border-radius: 10px;
-}

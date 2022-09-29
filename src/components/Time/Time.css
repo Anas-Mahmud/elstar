@@ -1,0 +1,29 @@
+.break {
+    margin: 0px 50px;
+    padding: 10px 0px;
+    background-color: rgb(224, 235, 240);
+    border-radius: 10px;
+}
+
+.break-btn {
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(165, 197, 192);
+}
+
+.time {
+    background-color: rgb(224, 235, 240);
+    margin: 20px 50px;
+    padding: 20px 0px;
+    border-radius: 10px;
+}
+
+.activity-btn {
+    padding: 20px 110px;
+    border: none;
+    background-color: rgb(133, 168, 162);
+    border-radius: 10px;
+    color: white;
+}

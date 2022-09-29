@@ -5,18 +5,3 @@
     background-color: rgb(236, 242, 245);
     border-radius: 10px;
 }
-
-.break {
-    margin: 0px 50px;
-    padding: 10px 0px;
-    background-color: rgb(224, 235, 240);
-    border-radius: 10px;
-}
-
-.break-btn {
-    padding: 10px;
-    margin: 10px;
-    border: none;
-    border-radius: 20px;
-    background-color: rgb(165, 197, 192);
-}

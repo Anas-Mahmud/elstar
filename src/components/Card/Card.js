@@ -2,7 +2,7 @@ import React from 'react';
 import './Card.css'
 
 const Card = ({ handleAddToList, card }) => {
-    const { picture, name, time, singer, age, about } = card;
+    const { picture, name, time, singer, age } = card;
     // console.log(card);
 
     return (
